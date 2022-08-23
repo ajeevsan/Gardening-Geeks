@@ -59,8 +59,9 @@ const adminAuth = {
 
 var userEmail = "";
 
+//! Mongodb connect
 mongoose.connect(
-  "mongodb+srv://sanjeevAdmin:3rxK1RepJlqkJ8Ep@cluster0.hhhso.mongodb.net/ggDb"
+  "mongodb+srv://sanjeevAdmin:Bookworm789@cluster0.hhhso.mongodb.net/ggDb"
 ).then(() => console.log("DB is connected.")).catch((err) => console.log(err, "it has an error"));
 
 //!======================
