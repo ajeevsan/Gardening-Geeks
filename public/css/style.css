@@ -58,38 +58,38 @@ nav ul a:hover {
 }
 
 .init {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	width: 100%;
-	margin: 14% 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 14% 10%;
 }
 
 .init h1 {
-	display: inline-block;
-	font-family: 'Alatsi', sans-serif;
-	font-size: 2.8125rem;
-	margin: 8% auto auto auto;
-	width: 100%;
-	text-align: center;
-	color: white;
-	line-height: 3.6875rem;
-	font-weight: 400;
-	/* left: 147px; */
-	position: relative;
+    display: inline-block;
+    font-family: 'Alatsi', sans-serif;
+    font-size: 2.8125rem;
+    margin: 8% auto auto auto;
+    width: 100%;
+    text-align: center;
+    color: white;
+    line-height: 3.6875rem;
+    font-weight: 400;
+    /* left: 147px; */
+    position: relative;
 }
 
 .init p {
-	margin: auto;
-	color: white;
-	text-align: center;
-	font-size: 1.375rem;
-	width: 38%;
-	/* float: right; */
-	/* margin-right: 15rem; */
-	font-family: 'Open sans', sans-serif;
-	font-weight: 600;
+    margin: auto;
+    color: white;
+    text-align: center;
+    font-size: 1.375rem;
+    width: 38%;
+    /* float: right; */
+    /* margin-right: 15rem; */
+    font-family: 'Open sans', sans-serif;
+    font-weight: 600;
 }
 
 .about-us {
@@ -135,6 +135,31 @@ div .tree-img img {
     object-fit: cover;
     height: 100vh;
 }
+
+.goTop {
+    height: 9%;
+    position: fixed;
+    width: auto;
+    z-index: 4;
+    margin: 4% 0 0 93%;
+}
+
+.goTop img {
+    height: 115%;
+    width: auto;
+    float: right;
+    position: relative;
+    margin: 2%;
+}
+
+.goTop img:hover {
+    width: auto;
+    float: right;
+    position: relative;
+    margin: 2%;
+    transform: scale(1.1);
+}
+
 
 
 /* Services */
